@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>BlueBerry Design Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>💙 BlueBerry Design Studio</h1>
+  <p>Poster • PPT • Infografis • Template • Ebook</p>
+</header>
+
+<section class="about">
+  <h2>Tentang Kami</h2>
+  <p>
+    BlueBerry Design Studio menyediakan jasa desain digital yang lucu, aesthetic, 
+    dan modern. Cocok untuk tugas sekolah, bisnis, dan konten sosial media ✨
+  </p>
+</section>
+
+<section class="services">
+  <h2>Layanan Kami</h2>
+  <div class="card">🎨 Poster</div>
+  <div class="card">📊 PPT Aesthetic</div>
+  <div class="card">📈 Infografis</div>
+  <div class="card">📸 Template Foto</div>
+  <div class="card">📚 Ebook Design</div>
+</section>
+
+<section class="payment">
+  <h2>Pembayaran</h2>
+  <p>Klik metode pembayaran di bawah ini:</p>
+
+  <button onclick="pay('DANA')">💙 DANA</button>
+  <button onclick="pay('GoPay')">💚 GoPay</button>
+
+  <div id="paymentBox" class="hidden">
+    <h3 id="method"></h3>
+    <p>Transfer ke nomor:</p>
+    <h2>085855195379</h2>
+    <button onclick="copyNumber()">📋 Salin Nomor</button>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 BlueBerry Design Studio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
